@@ -46,7 +46,7 @@ DB::table('contact')->insert($data1);
  
 
 //
-echo "data inserted sucessfully";
+echo "data inserted sucessfully in database";
     echo "<br>";
      echo "<a href ='logout'>logout</a>";
 

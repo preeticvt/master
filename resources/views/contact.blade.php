@@ -195,7 +195,7 @@ div {
      <input type="submit" value="Submit" onclick="return validate()"/>
 
 
-         <a href="{{ route('contactform',['download'=>'pdf']) }}">Download PDF</a>
+         <a href="{{ route('contactform',['download'=>'pdf']) }}">Download</a>
 
 
          
