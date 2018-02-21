@@ -13,6 +13,7 @@ class ProducttController extends Controller
         view()->share('products',$products);
         if($request->has('download')){
             $pdf = PDF::loadView('htmltopdfview');
+            
             return $pdf->download('htmltopdfview');
         }
         return view('htmltopdfview');

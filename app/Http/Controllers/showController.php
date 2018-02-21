@@ -15,4 +15,4 @@ $data = Data::all ();
 return view ( 'show' )->withData ( $data );
 } 
 
-}
+	}

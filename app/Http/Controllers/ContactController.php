@@ -17,7 +17,7 @@ public function contactform( Request $request){
 
 	$data = Data::all();
         view()->share('data',$data);
-        if($request->has('download')){
+        if($request->has('Download')){
             $pdf = PDF::loadView('contact');
             return $pdf->download('contactform');
         }
@@ -46,7 +46,7 @@ DB::table('contact')->insert($data1);
  
 
 //
-echo "data insert sucessfully";
+echo "data inserted sucessfully";
     echo "<br>";
      echo "<a href ='logout'>logout</a>";
 

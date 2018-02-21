@@ -8,6 +8,7 @@
         @foreach ($products as $product)
         <tr>
             <td>{{ $product->name }}</td>
+            
             <td>{{ $product->details }}</td>
         </tr>
         @endforeach
